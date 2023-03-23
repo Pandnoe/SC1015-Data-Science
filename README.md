@@ -26,6 +26,7 @@ https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset
 # Exploratory Analysis
 
 # Pattern Recognition
+- asdsadas
 
 # Analytic Visualization
 
