@@ -4,7 +4,7 @@
 For SC1015 Introduction to Data Science and Artificial Intelligience mini-project, we will be using IBM HR Analytics Employee Attrition & Performance Dataset 
 from Kaggle.
 
-# Group Members:
+# Group Members (A134):
 - Ying Hao 
 - Louis Ng
 
@@ -26,8 +26,29 @@ from Kaggle.
 
 # Exploratory Analysis
 - Coorelation
+![Correlation](https://user-images.githubusercontent.com/128039205/227194811-52cbbea8-828d-470d-8861-c1d083f31acf.png)
+
+From the above, we can see that the many columns of the data set are poorly correlated with each other. Thus, this is a good dataset for predictive model as for predictive model, it is generally better to train a model with features that are poorly correlated with each other. 
+
+
 - HVPlot
-  - We compare the columns against 
+  - We compare the factors (elements) against attrition factor to deduce which factor greatly affects the attrition.
+ 
+<img width="671" alt="Screenshot 2023-03-23 193212" src="https://user-images.githubusercontent.com/128039205/227191992-996d5316-58c5-440f-97a8-10f1ad198730.png">
+<img width="674" alt="Screenshot 2023-03-23 193508" src="https://user-images.githubusercontent.com/128039205/227192001-cb2a6d4b-b22a-4a24-8d91-8c5f57fb75b5.png">
+<img width="671" alt="Screenshot 2023-03-23 193551" src="https://user-images.githubusercontent.com/128039205/227192007-b923513c-9734-4165-9c91-fc602d5251e7.png">
+<img width="675" alt="Screenshot 2023-03-23 193616" src="https://user-images.githubusercontent.com/128039205/227192013-e14bbd99-ecb5-42ea-ac87-913ca8c4011e.png">
+
+From the above images, we can see that those with low `JobLevel`,`MonthlyIncome`,`YearsAtCompany`, and `TotalWorkingYears` are more likely to quit there jobs.
+
+<img width="671" alt="Screenshot 2023-03-23 194418" src="https://user-images.githubusercontent.com/128039205/227193774-847892db-efee-4439-a400-9f6b6505731a.png">
+
+From the above image, we can see that those who is `Single` marital status (represented by 1) are most likely to quit than the `Divorced` and `Married`.
+
+<img width="673" alt="Screenshot 2023-03-23 194216" src="https://user-images.githubusercontent.com/128039205/227194115-dd49d248-815c-4032-8ef5-e51a0342ebfa.png">
+
+From the above image, we can see that `Male`(represented by 1) is most likely to quit the job compared to `Female` (represented by 0)
+
 
 # Machine Learning
 - Random Forest Tree Classifier: Random Forest builds multiple decision tree using randomly selected subsets of the training data and features. Once the fitting of random forest is finished, Accuracy Score and Classification Report can can be seen.
