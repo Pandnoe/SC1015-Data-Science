@@ -32,6 +32,7 @@ From the above, we can see that the many columns of the data set are poorly corr
 
 
 - HVPlot
+  - The reason for using HVPlot is because it is able to create good visualization of the data quickly and easily, which in our case, it is extremely useful.
   - We compare the factors (elements) against attrition factor to deduce which factor greatly affects the attrition.
  
 <img width="671" alt="Screenshot 2023-03-23 193212" src="https://user-images.githubusercontent.com/128039205/227191992-996d5316-58c5-440f-97a8-10f1ad198730.png">
