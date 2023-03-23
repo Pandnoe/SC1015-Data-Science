@@ -24,14 +24,12 @@ https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset
 # Statistical Description
 
 # Exploratory Analysis
-
-# Pattern Recognition
-- asdsadas
-
-# Analytic Visualization
+-hvplot and coorelation
 
 # Machine Learning
-
+- random forest tree classifier
+- 
 # Algorithmic Optimization
+-smote and gradient boosting
 
 # Statiscal Inference
