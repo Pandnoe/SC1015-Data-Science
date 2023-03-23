@@ -25,7 +25,7 @@ from Kaggle.
 # Statistical Description
 
 # Exploratory Analysis
-- Coorelation
+- Correlation
 ![Correlation](https://user-images.githubusercontent.com/128039205/227194811-52cbbea8-828d-470d-8861-c1d083f31acf.png)
 
 From the above, we can see that the many columns of the data set are poorly correlated with each other. Thus, this is a good dataset for predictive model as for predictive model, it is generally better to train a model with features that are poorly correlated with each other. 
