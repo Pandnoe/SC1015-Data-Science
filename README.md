@@ -9,18 +9,17 @@ from Kaggle.
 - Louis Ng
 
 # Pratical Motivation
-- We will soon to be working adults hence we would like to know what factors will result us leaving a particular job.
-
+- We are soon to be working adults therefore, we would like to know what factors are important when choosing a job that will ensure that I have a long career in that company
 # Sample Collection
 - Our dataset was taken from Kaggle IBM HR Analytics Employee Attrition & Performance.
 
 # Problem Formulation
 - What are the factors that causes people to leave their company?
-- How to prevent it?
 
 # Data Preparation
 - Data Cleaning
-  - We check in the dataset whether there is any null values
+  - Checked if there are any missing values in the dataset and remove them
+  - Checked for any redundant columns in the dataset and remove them
 
 # Statistical Description
 
@@ -62,6 +61,10 @@ From the above image, we can see that `Male`(represented by 1) is most likely to
 |`Recall`| Recall is defined as the ration of true positives to the sum of true positives and false negatives.|
 |`F1 Score`| The F1 is the weighted harmonic mean of precision and recall. The closer the value of F1 Score is to 1.0, the better the expected performance of the model is.|
 |`Support`| Support is the number of actual occurrences of the class in the dataset. It doesn't vary between models, it just diagnoses the performation evaluation process.|
+
+- Logistic Regression: A type of statistical model that estimates the probility of an event occuring based on a dataset of independent variables
+
+From our Logistic Regression of our categorical data, we learnt that Overtime and the frequency of business travel have the biggest role in determining whether one will leave the company
 
 # Algorithmic Optimization
 - Smote
