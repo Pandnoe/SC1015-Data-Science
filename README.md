@@ -18,8 +18,16 @@ from Kaggle.
 
 # Data Preparation
 - Data Cleaning
-  - Checked if there are any missing values in the dataset and remove them
+  - Checked if there are any missing values in the dataset and if there is remove them
+
+<img width="250" alt="Screenshot 2023-03-30 100606" src="https://user-images.githubusercontent.com/128039205/228709564-5a7cc171-5622-46a3-8ce1-1e4633c408c4.png">
+
+  - In our dataset, we have no null values. Hence there is no need to remove them.
   - Checked for any redundant columns in the dataset and remove them
+  - From the dataset, we concluded that `EmployeeCount`,`Over18`,`EmployeeNumber`,`StandardHours`
+  ``` python
+  df = df.drop(['EmployeeCount', 'Over18', 'EmployeeNumber', 'StandardHours'], axis=1)
+  ```
 
 # Statistical Description
 
