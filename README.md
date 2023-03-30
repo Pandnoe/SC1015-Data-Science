@@ -68,7 +68,11 @@ From our Logistic Regression of our categorical data, we learnt that Overtime an
 
 # Algorithmic Optimization
 - Smote
-  - In the dataset, there is an imbalance of the values, hence we use SMOTE method to deal with the over-skewed values
+  - In the dataset, there is an imbalance of the values, which result in a one-sided skewness as seen in the image below.
+  
+  <img width="748" alt="Screenshot 2023-03-30 090819" src="https://user-images.githubusercontent.com/128039205/228702011-d6fb36d7-b7f2-4a3c-8b24-284109d52030.png">
+
+  Hence we use SMOTE method to deal with the over-skewed values
   
   ``` python
   oversampler= SMOTE(random_state=0)
