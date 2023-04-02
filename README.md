@@ -72,6 +72,16 @@ From the above image, we can see that `Male`(represented by 1) is most likely to
 
 - Logistic Regression: A type of statistical model that estimates the probility of an event occuring based on a dataset of independent variables
 
+We have decide to use MonthlySalary and JobLevel to conduct logistic regression on as these 2 variables have shown to have a relationship to attrition based on our extraplotary data analysis earlier.
+
+Logistic Regression Using MonthlySalary
+
+![image](https://user-images.githubusercontent.com/100660376/229361552-ce90c97f-ff89-4df7-9f4c-64c78a4f4714.png)
+
+Logistic Regression Using JobLevel
+![image](https://user-images.githubusercontent.com/100660376/229361567-4b7a7db7-62f2-4557-9dcc-adf9e78d9bd6.png)
+
+
 From our Logistic Regression of our categorical data, we learnt that Overtime and the frequency of business travel have the biggest role in determining whether one will leave the company
 
 # Algorithmic Optimization
