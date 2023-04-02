@@ -82,7 +82,7 @@ Logistic Regression Using JobLevel
 ![image](https://user-images.githubusercontent.com/100660376/229361567-4b7a7db7-62f2-4557-9dcc-adf9e78d9bd6.png)
 
 
-From our Logistic Regression of our categorical data, we learnt that Overtime and the frequency of business travel have the biggest role in determining whether one will leave the company
+The accuracy of logistic regression using MonthylySalary is only 0.497 which meant that MonthlySalary is a poor predictor of attrition according to the model. On the other hand the accuracy of logistic regression using JobLevel is 0.688 which is a decent accuracy in predicting attrition.
 
 # Algorithmic Optimization
 - Smote
