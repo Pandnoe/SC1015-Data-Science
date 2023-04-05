@@ -66,7 +66,7 @@ From the above image, we can see that `Male`(represented by 1) is most likely to
 |Metrics| Definitions|
 |--------|------------|
 |`Precision`| Precision is defined as the ratio of true positives to the sum of true and false negatives|
-|`Recall`| Recall is defined as the ration of true positives to the sum of true positives and false negatives.|
+|`Recall`| Recall is defined as the ratio of true positives to the sum of true positives and false negatives.|
 |`F1 Score`| The F1 is the weighted harmonic mean of precision and recall. The closer the value of F1 Score is to 1.0, the better the expected performance of the model is.|
 |`Support`| Support is the number of actual occurrences of the class in the dataset. It doesn't vary between models, it just diagnoses the performation evaluation process.|
 
