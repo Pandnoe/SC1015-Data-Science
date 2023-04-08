@@ -54,9 +54,7 @@ From the above images, we can see that those with low `JobLevel`,`MonthlyIncome`
 
 From the above image, we can see that those who is `Single` marital status (represented by 1) are most likely to quit than the `Divorced` and `Married`.
 
-<img width="673" alt="Screenshot 2023-03-23 194216" src="https://user-images.githubusercontent.com/128039205/227194115-dd49d248-815c-4032-8ef5-e51a0342ebfa.png">
 
-From the above image, we can see that `Male`(represented by 1) is most likely to quit the job compared to `Female` (represented by 0)
 
 
 # Machine Learning
