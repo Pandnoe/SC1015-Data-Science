@@ -23,7 +23,6 @@ from Kaggle.
 - Random Forest Classification is a better model in determining attrition as compared to Logistic Regression. (Better accuracy and Accounts for many different factors)
 - Random Forest is able to predict who is going to quit the company depending on the elements(factors)
 - Hence, able to proactively recruit new people
-- HVPlot is able to tell us which factors are important to ensure a long lasting career
 
 # Learning Outcomes
 - New data visualisation tool, HvPlot that enable us to recognise patterns in our data easily
