@@ -4,6 +4,8 @@
 For SC1015 Introduction to Data Science and Artificial Intelligience mini-project, we will be using IBM HR Analytics Employee Attrition & Performance Dataset 
 from Kaggle.
 
+PS. When accessing miniProj.ipynb from github, sometimes it will not be able to display HVPlot even though the code is correct. Should the HVPlot cannot be seen, please refer to the HVPlot and Data Description word.docx, for visualisation. Thank you!
+
 # Group Members (A134):
 - Ying Hao 
 - Louis Ng
