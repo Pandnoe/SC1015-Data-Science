@@ -6,7 +6,7 @@ from Kaggle.
 
 PS. When accessing miniProj.ipynb from github, sometimes it will not be able to display HVPlot even though the code is correct. Should the HVPlot cannot be seen, please refer to the HVPlot and Data Description word.docx, for visualisation. Thank you!
 
-# Group Members (A134):
+# Group Members (A134 - Team 7):
 - Ying Hao 
 - Louis Ng
 
